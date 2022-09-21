@@ -241,7 +241,6 @@ header ul li a:hover {
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
-  
 }
 .corretores h1 {
   color: white;
@@ -263,20 +262,20 @@ header ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   width: 30%;
   height: 100px;
 }
-.senhor a{
+.senhor a {
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: var(--preto);
   background-color: var(--dourado);
-  width: 130px;
+  width: 170px;
   text-align: center;
-  height: 60px;
+  height: 80px;
   border-radius: 20px;
   color: white;
   font-family: var(--fonte);
@@ -286,15 +285,15 @@ header ul li a:hover {
   width: 40px;
   transition: all 0.3s;
 }
-.senhor a span{
+.senhor a span {
   transition: all 0.3s;
 }
 
-.senhor a:hover img{
+.senhor a:hover img {
   transform: translateX(80%);
 }
-.senhor a:hover span{
-  transform: translateX(140%);
+.senhor a:hover span {
+  transform: translateX(170%);
 }
 
 @media only screen and (max-width: 400px) {
