@@ -295,8 +295,18 @@ header ul li a:hover {
 .senhor a:hover span {
   transform: translateX(170%);
 }
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/fotoSalaDesfoque.png);
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+  background-position: -2px -30px;
+}
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .imoveis {
     flex-direction: column;
   }
