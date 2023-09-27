@@ -54,13 +54,13 @@
             </div>
           </a>
           <a href="#">
-            <div class="imovel-1">
-              <span> térreo com quintal</span>
+            <div class="imovel-2">
+              <span> modelo padrão</span>
             </div>
           </a>
           <a href="#">
-            <div class="imovel-1">
-              <span> térreo com quintal</span>
+            <div class="imovel-3">
+              <span> duplex</span>
             </div>
           </a>
         </div>
@@ -68,21 +68,20 @@
       <div class="apartamentos">
         <div class="ap1">
           <div class="textodoap">
-            <h2>apartamento</h2>
-            <h3>ow esse aqui e mto legal</h3>
+            <h2>Lazer</h2>
+            <h3>lazer para toda a família</h3>
           </div>
-          <div class="imgdoap"></div>
+          <div class="imgdoap1"></div>
         </div>
         <div class="ap2">
           <div class="textodoap2">
-            <h2>outro apartamento</h2>
-            <h3>esse tmbm e bem legal</h3>
+            <h2>venha conhecer</h2>
+            <h3>venha conferir o nosso decorado</h3>
           </div>
-          <div class="imgdoap"></div>
+          <div class="imgdoap2"></div>
         </div>
       </div>
 
-      
       <div class="video">
         <video width="320" height="240" controls>
           <source
@@ -94,19 +93,33 @@
       <div class="corretores" id="corretores">
         <h1>Interessado(a)?</h1>
         <h2>Fale com um de nossos corretores!</h2>
-        <div class="senhores">
-          <div class="senhor">
-            <a href="https://api.whatsapp.com/send?phone=947298191">
-               <img src="./img/WhatsApp-Logo.png" /><span>Pacheco</span></a
-            >
+        <div class="contato">
+          <div class="senhores">
+            <div class="senhor">
+              <a href="https://api.whatsapp.com/send?phone=947298191">
+                <img src="./img/WhatsApp-Logo.png" /><span>Pacheco</span></a
+              >
+            </div>
+            <div class="senhor">
+              <a href="https://api.whatsapp.com/send?phone=947298188"
+                ><img src="./img/WhatsApp-Logo.png" /><span>Luciene</span></a
+              >
+            </div>
           </div>
-          <div class="senhor">
-            <a href="https://api.whatsapp.com/send?phone=947298188"
-              ><img src="./img/WhatsApp-Logo.png" /><span>Luciene</span></a
-            >
+          <div class="formulario">
+            <label for="nome"> Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email">
+            <label for="telefone"> Telefone</label>
+            <input type="number" name="telefone" id="telefone">
+            <label for="mensagem"> Sua mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <button type="submit" class="enviar" id="enviar" onclick="enviar()">Enviar</button>
           </div>
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
