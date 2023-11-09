@@ -10,7 +10,7 @@
   <body>
     <header>
       <div class="info">
-        <img src="img/logo.png" alt="" />
+        <img src="/img/logo.png" alt="" />
         <div class="numeros">
           <span> (11)94729-8191</span>
           <span>CRECI 185626</span>
@@ -85,7 +85,7 @@
       <div class="video">
         <video width="320" height="240" controls>
           <source
-            src="./img/WhatsApp Video 2022-09-21 at 19.41.32.mp4"
+            src="/img/WhatsApp Video 2022-09-21 at 19.41.32.mp4"
             type="video/mp4"
           />
         </video>

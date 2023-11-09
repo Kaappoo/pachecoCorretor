@@ -1,6 +1,14 @@
 create schema pachecocorretor;
 use pachecocorretor;
 
+
+create table Corretor(
+idCorretor int primary key not null auto_increment,
+nome varchar(30), 
+login varchar(15),
+senha varchar(20)
+);
+
 create table Cliente(
 id int primary key not null auto_increment,
 nome varchar(30), 
@@ -11,9 +19,3 @@ contatadoPor int,
 foreign key (contatadoPor) references Corretor(idCorretor)
   );
   
-create table Corretor(
-idCorretor int primary key not null auto_increment,
-nome varchar(30), 
-login varchar(15),
-senha varchar(20)
-);
