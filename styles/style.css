@@ -149,20 +149,17 @@ header ul li a:hover {
 
 .unidades .imovel-1 {
   background-image: url("/img/quintal.png");
-
 }
 .unidades .imovel-2 {
   background-image: url("/img/padrao.jpeg");
-
 }
 .unidades .imovel-3 {
   background-image: url("/img/duplex.jpeg");
-
 }
 
 .unidades .imovel-1,
 .unidades .imovel-2,
-.unidades .imovel-3{
+.unidades .imovel-3 {
   height: 170px;
   width: 170px;
   background-position: -50px;
@@ -184,7 +181,7 @@ header ul li a:hover {
 }
 .unidades .imovel-1:hover,
 .unidades .imovel-2:hover,
-.unidades .imovel-3:hover { 
+.unidades .imovel-3:hover {
   padding-bottom: 10px;
   padding-top: 10px;
   cursor: pointer;
@@ -256,7 +253,6 @@ header ul li a:hover {
   background-image: url("/img/quadra.webp");
   flex: 4;
   background-size: 700px;
-
 }
 .corretores {
   background-color: var(--preto);
@@ -331,7 +327,7 @@ header ul li a:hover {
   background-position: -2px -30px;
 }
 
-.contato{
+.contato {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -339,17 +335,16 @@ header ul li a:hover {
   padding-bottom: 100px;
 }
 
-.formulario{
+.formulario {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-width: 200px;
-  /* width: 20%; */
   flex: 1;
-  
+  align-items: center;
 }
 
-.formulario input{
+.formulario input {
   background-color: #323641;
   border: none;
   border-radius: 10px;
@@ -357,27 +352,26 @@ header ul li a:hover {
   color: white;
   padding: 3px 8px;
   width: 50%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.formulario textarea{
+.formulario textarea {
   background-color: #323641;
   border: none;
   border-radius: 10px;
   width: 53%;
   padding: 8px;
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.formulario label{
+.formulario label {
   font-family: var(--fonte);
   color: white;
   margin-top: 10px;
 }
 
-.enviar{
+.enviar {
   border: none;
   width: 53%;
   margin-top: 20px;
@@ -390,40 +384,191 @@ header ul li a:hover {
   cursor: pointer;
 }
 
-.enviar:hover{
+.enviar:hover {
   transform: scale(1.1);
 }
 
-.banner{
+.formulario-a {
+  border: none;
+  width: 33%;
+  margin-top: 20px;
+  background-color: var(--dourado);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: var(--fonte);
+  font-weight: 600;
+  transition: 0.2s all;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center ;
+  color: var(--preto);
+  margin-bottom: 18px;
+}
+
+.formulario-a:hover {
+  transform: scale(1.1);
+}
+
+.banner {
   width: 100%;
   height: 330px;
-  background-image:url(/img/quadra.webp);
+  background-image: url(/img/quadra.webp);
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main-formulario{
+.banner h2{
+  font-family: var(--fonte);
+  color: #fff;
+  font-weight: 800;
+  font-size: 30px;
+  
+}
+
+.main-formulario {
   background-color: var(--preto);
   height: 100%;
   display: flex;
   justify-content: center;
 }
 
-.form-cadastro{
+.form-cadastro {
   display: flex;
   width: 60%;
   align-items: center;
   flex-direction: column;
+  padding: 30px;
+  transform: translateY(-100px);
+  background-color: var(--dourado);
+  height: 50vh;
+  width: 300px;
+  border-radius: 8px;
 }
 
+.form-cadastro input[type = text],
+.form-cadastro input[type = number] {
+  margin-bottom: 12px;
+  background-color: #c9bc98;
+  border: none;
+  border-radius: 10px;
+  height: 90px;
+  color: #000;
+  padding: 3px 8px;
+  width: 80%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.form-cadastro textarea {
+  background-color: #c9bc98;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  height: 120px;
+  padding: 8px;
+  color: var(--preto);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 12px;
+  resize: vertical;
+  font-weight: 600;
+}
+
+.form-cadastro label {
+  font-family: var(--fonte);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#envia-cadastro{
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: var(--preto);
+  color: #fff;
+  font-family: var(--fonte);
+  font-weight: 800;
+  cursor: pointer;
+}
+.logout-btn{
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: var(--preto);
+  color: #fff;
+  font-family: var(--fonte);
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.login-btn{
+  color: #fff;
+  font-family: var(--fonte);
+  font-weight: 800;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-   
-    -webkit-appearance: none;
-    margin: 0; 
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.main-clientes{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--preto);
+  justify-content: center;
+  align-items: center;
+}
+
+.clientes-table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dourado);
+  padding: 20px;
+  flex-direction: column;
+  width: 80%;
+}
+
+.cliente{
+  display: flex;
+  gap: 8px;
+  padding: 8px 15px;
+  border-bottom: #000 1px solid;
+  font-family: var(--fonte);
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cliente span{
+  border-right: #000 1px solid;
+  padding-right: 5px;
+}
+
+.main-logout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--preto);
+  height: 100vh;
+  width: 100%;
+}
+
+.login-submit{
+  margin-top: 50px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 500px) {
@@ -466,37 +611,36 @@ input::-webkit-inner-spin-button {
     height: 280px;
   }
   .textodoap2 {
-    
     padding: 5px;
   }
 
-  .contato{
+  .contato {
     flex-direction: column-reverse;
     height: 700px;
     align-items: center;
     padding-bottom: 10px;
   }
 
-  .formulario{
+  .formulario {
     border-bottom: solid white;
     padding-bottom: 30px;
     height: 400px;
   }
 
-  .formulario input{
+  .formulario input {
     width: 90%;
     height: 30px;
   }
 
-  .formulario textarea{
+  .formulario textarea {
     width: 93%;
   }
 
-  .enviar{
+  .enviar {
     width: 100%;
   }
 
-  .corretores{
+  .corretores {
     text-align: center;
   }
 }

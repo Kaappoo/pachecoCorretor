@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Pacheco Corretor</title>
   </head>
   <body>
-    <header>
+  <header>
       <div class="info">
         <img src="/img/logo.png" alt="" />
         <div class="numeros">
@@ -30,7 +30,7 @@
             <a href="#corretores">contatos</a>
           </li>
           <li>
-            <a href="#">sobre</a>
+            <a href="pages/formulario.php">formulário</a>
           </li>
         </ul>
       </nav>
@@ -92,7 +92,9 @@
       </div>
       <div class="corretores" id="corretores">
         <h1>Interessado(a)?</h1>
-        <h2>Fale com um de nossos corretores!</h2>
+        <h2>Preencha um formulário e seja contatado</h2>
+        <h2>ou fale com um de nossos corretores!</h2>
+        <a class="formulario-a" href="pages/formulario.php">Preencher!</a>
         <div class="contato">
           <div class="senhores">
             <div class="senhor">
@@ -107,6 +109,7 @@
             </div>
           </div>
           <div class="formulario">
+            
             <label for="nome"> Nome</label>
             <input type="text" name="nome" id="nome">
             <label for="email"> Email</label>
@@ -118,6 +121,7 @@
             <button type="submit" class="enviar" id="enviar" onclick="enviar()">Enviar</button>
           </div>
         </div>
+        <a class="login-btn" href="pages/login.php">Area dos corretores</a>
       </div>
     </div>
     <script src="index.js"></script>
